@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 
 public class OpenAIManager {
 
-    private final String OPENAI_API_KEY = "API_KEY";
+    private final String OPENAI_API_KEY = "key";
 
     public List<String> translateNamesWithChatGPT(List<String> ukrainianNames) {
 
